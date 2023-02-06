@@ -5,7 +5,7 @@ public class test {
 	
 	
 	public static void main(String[] args) {
-				System.out.println("[RKD237] : ");
+				System.out.println("[RKD237] :  한준희 2.6");
 	}
 	
 	

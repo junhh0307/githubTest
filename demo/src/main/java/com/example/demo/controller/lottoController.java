@@ -31,7 +31,7 @@ public class lottoController {
 	@PostMapping("/new")
 	public String newLotto(Model model) {
 
-		System.out.println("new  new");
+		System.out.println("new  newd");
 
 		List<String> listA = new ArrayList<String>();
 		Map<String, String> mapA = new HashMap<String, String>();

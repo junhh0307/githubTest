@@ -1,4 +1,37 @@
-.table-std {
-	width:100%;
-	border: 1px solid #444444;
+/*
+border : 테두리
+width : 가로
+height: 높이
+*/
+
+
+
+/* table 컬럼만 */
+table.table-std {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 20px 10px;
+}
+table.table-std th {
+  width: 100px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+  background: #0080ff ;
+}
+table.table-std td {
+  width: 100px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: #c0c0c0;
+}
+
+.btn-blue {
+	background-color: #ff80ff;
+	color: #fff;
+	border: none;
 }

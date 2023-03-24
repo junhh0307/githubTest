@@ -6,7 +6,7 @@ height: 높이
 
 
 
-/* table 컬럼만 */
+/* table */
 table.table-std {
   border-collapse: separate;
   border-spacing: 1px;
@@ -30,8 +30,33 @@ table.table-std td {
   background: #c0c0c0;
 }
 
+
+/* button */
 .btn-blue {
 	background-color: #ff80ff;
 	color: #fff;
 	border: none;
+}
+
+
+/* selectBox */
+.selectBox-std{
+    width: 200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.selectBox-std:focus{
+    border: 1px solid #9B51E0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 3px solid #F8E4FF;
+    border-radius: 10px;
 }

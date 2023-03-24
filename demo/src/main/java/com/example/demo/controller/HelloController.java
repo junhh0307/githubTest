@@ -44,4 +44,11 @@ public class HelloController {
 		return "hello " + name;
 	}
 
+
+	@GetMapping("/component")
+	public String component(Model model) {
+
+		return "component";
+	}
+
 }

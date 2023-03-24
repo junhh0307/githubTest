@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
- <title>Hello</title>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<title>Hello</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
 	<h1>시작</h1>
-		<div>
-			<button th:onclick="creatLotto()">생성</button>
-		</div>
+	<div>
+		<button th:onclick="creatLotto()">생성</button>
+	</div>
 	<h4>번호</h4>
-	<table>
+	<table class="table-std">
 		<thead>
 			<tr>
 				<th>첫번째</th>
@@ -36,7 +37,7 @@
 </html>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <th:block layout:fragment="script">
-  <script>
+	<script>
     var contextPath = "[[${contextPath}]]";
 	
 	function creatLotto() {

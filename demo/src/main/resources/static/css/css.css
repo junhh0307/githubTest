@@ -4,7 +4,9 @@ width : 가로
 height: 높이
 */
 
-
+/* 글자색 */
+.red-text { color : #ff0000; }
+.blue-text { color : #0000ff; }
 
 /* table */
 table.table-std {

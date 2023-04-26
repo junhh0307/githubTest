@@ -45,10 +45,10 @@ public class HelloController {
 	}
 
 
-	@GetMapping("/component")
-	public String component(Model model) {
-
-		return "component";
-	}
+//	@GetMapping("/component")
+//	public String component(Model model) {
+//
+//		return "component";
+//	}
 
 }
